@@ -20,7 +20,7 @@ jQuery(document).on 'turbolinks:load', ->
       messages_to_bottom()
 
     send_message: (message, chat_room_id) ->
-      @perform 'send_message', message: message, chat_room_id: chat_room_id
+      @perform 'speak', message: message, chat_room_id: chat_room_id
 
     $('#new_message').submit (e) ->
       $this = $(this)
