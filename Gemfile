@@ -36,7 +36,7 @@ gem 'redis', '~> 3.2'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise'
-gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'bootstrap', '~> 4.3.1'
 gem 'haml-rails'
 
 group :development, :test do
